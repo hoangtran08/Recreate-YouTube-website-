@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>YouTube.com Clone</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/video.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
+    </head>
+    
+    <body>
+        <!--header part-->
+        <div class="header">
+
+            <!--left section-->
+            <div class="left-section">
+                <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+                <img class="youtube-logo" src="icons/youtube-logo.svg">
+            </div>
+
+            <!--middle section-->
+            <div class="middle-section">
+                <input class= "search-bar" type="text" placeholder="Search">
+                <button class="search-button">
+                    <img class="search-icon" src="icons/search.svg">
+                    <div class="tooltip">Search</div>
+                </button>
+                <button class="voice-search-button">
+                    <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+                    <div class="tooltip">Search with your voice</div>
+                </button>
+            </div>
+
+            <!--right section-->
+            <div class="right-section">
+                <div class="upload-icon-container">
+                    <img class="upload-icon" src="icons/upload.svg">
+                    <div class="tooltip">Create</div>
+                </div>
+                <div class="youtube-apps-container">
+                    <img class="youtube-app-icon" src="icons/youtube-apps.svg">
+                    <div class="tooltip">YouTube apps</div>
+                </div>
+                <div class="notifications-icon-container">
+                    <img class="notifications-icon" src="icons/notifications.svg">
+                    <div class="notifications-count">9</div>
+                    <div class="tooltip">Notifications</div>
+                </div>
+                <img class="current-user-picture" src="channel-picture/Profile Picture.jpg">
+            </div>
+        </div>
+
+        <!--sidebar-->
+        <div class="sidebar">
+            <div class="sidebar-link">
+                <img src="icons/home.svg">
+                <div>Home</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/explore.svg">
+                <div>Explore</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/subscriptions.svg">
+                <div>Subscriptions</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/originals.svg">
+                <div>Originals</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/youtube-music.svg">
+                <div>YouTube Music</div>
+            </div>
+            <div class="sidebar-link">
+                <img src="icons/library.svg">
+                <div>Library</div>
+            </div>
+        </div>
+
+
+        <!--video part-->
+        <div class="video-grid">
+            <!--first video-->
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=Teyp-Xw3abc">
+                        <img class="thumbnail" src="thumbnails/thumbnail 4.webp">
+                    </a>
+                    <div class="video-time">8:56</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class ="profile-picture" src="channel-picture/channel picture 4.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">EXTENDED HIGHLIGHTS | Man City 2-1 Brighton | Haaland and Alvarez with the goals</p> 
+                        <p class="video-author">Man City</p>
+                        <p class="video-stat">469 N views &#183; 1 day ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--second video-->
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=CAkkVIsNxDE">
+                        <img class="thumbnail" src="thumbnails/thumbnail 3.webp">
+                    </a>
+                    <div class="video-time">9:50</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class ="profile-picture" src="channel-picture/channel picture 3.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Finite Element Analysis Explained | Thing Must know about FEA</p> 
+                        <p class="video-author">Brendan Hasty</p>
+                        <p class="video-stat">37 N views &#183; 1 year ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--third video-->
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=WmcHbCaO1d8">
+                        <img class="thumbnail" src="thumbnails/thumbnail 2.webp">
+                    </a>
+                    <div class="video-time">8:08</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class ="profile-picture" src="channel-picture/channel picture 2.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Canelo Alvarez vs. Jermell Charlo | Fight Highlights</p> 
+                        <p class="video-author">DAZN Boxing</p>
+                        <p class="video-stat">305 N views &#183; 3 weeks ago</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!--fourth video-->
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc">
+                        <img class="thumbnail" src="thumbnails/thumbnail 1.webp">
+                    </a>
+                    <div class="video-time">6:31:24</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class ="profile-picture" src="channel-picture/channel picture 1.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">HTML & CSS Full Course - Beginner to Pro</p> 
+                        <p class="video-author">SuperSimpleDev</p>
+                        <p class="video-stat">6,9 M views &#183; 1 year ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--fifth video-->
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=xhjQVKQYMQE">
+                        <img class="thumbnail" src="thumbnails/thumbnail 12.webp">
+                    </a>
+                    <div class="video-time">4:12</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class ="profile-picture" src="channel-picture/channel picture 12.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Dẫu Có Lỗi Lầm - Văn Mai Hương ft Dương Edward live at #souloftheforest</p> 
+                        <p class="video-author">Soul of The Forest</p>
+                        <p class="video-stat">3 M views &#183; 1 year ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--sixth video-->
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=OTbaG_uTn-M">
+                        <img class="thumbnail" src="thumbnails/thumbnail 6.webp">
+                    </a>
+                    <div class="video-time">8:11</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class ="profile-picture" src="channel-picture/channel picture 6.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Race Highlights | 2023 United States Grand Prix</p> 
+                        <p class="video-author">FORMULA 1</p>
+                        <p class="video-stat">3,5 M views &#183; 2 days ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--seventh video-->
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=_Jsd7fd6Af0">
+                        <img class="thumbnail" src="thumbnails/thumbnail 7.webp">
+                    </a>
+                    <div class="video-time">7:53</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class ="profile-picture" src="channel-picture/channel picture 7.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">CFD analysis for airplane</p> 
+                        <p class="video-author">CAD CAM TOUR</p>
+                        <p class="video-stat">12 N views &#183; 3 years ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--eighth video-->
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=abyY0MjJq6o">
+                        <img class="thumbnail" src="thumbnails/thumbnail 8.webp">
+                    </a>
+                    <div class="video-time">2:28</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class ="profile-picture" src="channel-picture/channel picture 8.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Man United 1-0 FC Copenhagen Post-Match | Onana & Maguire the heroes after dramatic #UCL win! 🎥</p> 
+                        <p class="video-author">TNT Sports</p>
+                        <p class="video-stat">559 N views &#183; 14 hours ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--ninth video-->
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=t2eQFcpD3kk">
+                        <img class="thumbnail" src="thumbnails/thumbnail 9.webp">
+                    </a>
+                    <div class="video-time">8:29</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class ="profile-picture" src="channel-picture/channel picture 9.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">I asked Google employees how much MONEY they make & how to get HIRED</p> 
+                        <p class="video-author">Finance with Chi</p>
+                        <p class="video-stat">257 N views &#183; 3 months ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--tenth video-->
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=Gc7EMIHoXs0">
+                        <img class="thumbnail" src="thumbnails/thumbnail 10.webp">
+                    </a>
+                    <div class="video-time">6:31</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class ="profile-picture" src="channel-picture/channel picture 10.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Machine Learning for Aerodynamics - Deep Learning & Neural Networks applied to CFD simulations</p> 
+                        <p class="video-author">AirShaper</p>
+                        <p class="video-stat">16 N views &#183; 3 years ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--eleventh video-->
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=ZzaPdXTrSb8">
+                        <img class="thumbnail" src="thumbnails/thumbnail 11.webp">
+                    </a>
+                    <div class="video-time">1:22:56</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class ="profile-picture" src="channel-picture/channel picture 11.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">C++ Tutorial for Beginners - Learn C++ in 1 Hour</p> 
+                        <p class="video-author">Programming with Mosh</p>
+                        <p class="video-stat">2,4 M views &#183; 1 year ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--twelfth video-->
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=h7a0CnUaMkc">
+                        <img class="thumbnail" src="thumbnails/thumbnail 5.webp">
+                    </a>
+                    <div class="video-time">11:07</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class ="profile-picture" src="channel-picture/channel picture 5.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">Day in the Life of a Data Scientist @ Amazon (London)</p> 
+                        <p class="video-author">Olle Green</p>
+                        <p class="video-stat">179 N views &#183; 11 months ago</p>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </body>
+</html>
